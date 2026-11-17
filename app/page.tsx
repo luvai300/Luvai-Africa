@@ -925,12 +925,12 @@ function App() {
                         ? "Find your next favourite maker."
                         : onlySaved
                           ? "Your saved pieces."
-                          : "Find a piece that feels like you."}
+                          : "A digital hub for authentic African pieces."}
                     </h2>
                   </div>
                   {view === "market" && (
                     <button className="quiet-link" onClick={studio}>
-                      Bring your work here <Plus size={16} />
+                      Showcase your work here <Plus size={16} />
                     </button>
                   )}
                 </div>
@@ -1228,7 +1228,7 @@ function App() {
                       ? "A COLLECTION OF YOUR OWN"
                       : search || category !== "All pieces"
                         ? "KEEP EXPLORING"
-                        : "A NEW MARKETPLACE, TAKING SHAPE"}
+                        : "AFRICAN CRAFT"}
                 </span>
                 <h3>
                   {view === "studio"
@@ -1239,7 +1239,7 @@ function App() {
                       ? "Keep the pieces you love close."
                       : search || category !== "All pieces"
                         ? "Nothing here just yet."
-                        : "The shelves are ready. The makers come next."}
+                        : "No pieces listed yet."}
                 </h3>
                 <p>
                   {view === "studio"
@@ -1248,7 +1248,7 @@ function App() {
                       ? "Tap the heart on a product to find it here later on this device."
                       : search || category !== "All pieces"
                         ? "Try another search or category."
-                        : "This space is reserved for real work from real artisans. If you make something, we’d love to see it here."}
+                        : "Open your shop to list pieces and share their stories."}
                 </p>
                 <button
                   className="button primary"
@@ -1268,7 +1268,7 @@ function App() {
                       ? "Explore the marketplace"
                       : search || category !== "All pieces"
                         ? "Clear search & filters"
-                        : "Be one of our first makers"}{" "}
+                        : "Showcase your work here"}{" "}
                   <ArrowRight size={16} />
                 </button>
               </div>
