@@ -743,11 +743,7 @@ function App() {
                 </div>
                 <div className="art-note">
                   <span>01 / A CONSIDERED BEGINNING</span>
-                  <p>
-                    Every piece starts
-                    <br />
-                    with a pair of hands.
-                  </p>
+                  <p>Every piece has a story.</p>
                 </div>
                 <span className="art-edge">LU VAI AFRICA · EST. 2026</span>
               </div>
