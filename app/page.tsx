@@ -711,19 +711,12 @@ function App() {
           <>
             <section className="hero">
               <div className="hero-copy">
-                <span className="eyebrow">
-                  <span className="tiny-dot" /> MADE BY PEOPLE. FOUND HERE.
-                </span>
                 <h1>
-                  Good things.
+                  Your culture.
                   <br />
-                  <em>Made by hand.</em>
+                  <em>Your heritage.</em>
                 </h1>
-                <p>
-                  Art, objects and everyday pieces from African artisans.
-                  <br className="desktop-br" /> Find something you love. Get to
-                  know who made it.
-                </p>
+                <p className="hero-delivery">Brought directly to you.</p>
                 <div className="hero-actions">
                   <a href="#pieces" className="button primary">
                     Browse the marketplace <ArrowRight size={17} />
@@ -1094,7 +1087,7 @@ function App() {
               </div>
             ) : loading ? (
               <div className="loading" role="status">
-                <Loader2 className="spin" size={20} /> Finding the good things…
+                <Loader2 className="spin" size={20} /> Loading the marketplace…
               </div>
             ) : view === "makers" ? (
               makers.length ? (

@@ -2444,3 +2444,6 @@ footer {
     font-size: 21px;
   }
 }
+
+.hero-copy > .hero-delivery { font-size: 19px; color: var(--brown); }
+@media (max-width: 720px) { .hero-copy > .hero-delivery { font-size: 17px; } }
