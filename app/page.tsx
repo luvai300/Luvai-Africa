@@ -653,7 +653,7 @@ function App() {
   return (
     <>
       <div className="topline">
-        A home for African craft. A place for the people who make it.
+        Modern Africa · The future of Africa is here.
       </div>
       <header className="header">
         <button
@@ -721,11 +721,11 @@ function App() {
             <section className="hero">
               <div className="hero-copy">
                 <h1>
-                  Your culture.
+                  Modern Africa.
                   <br />
-                  <em>Your heritage.</em>
+                  <em>The future of Africa is here.</em>
                 </h1>
-                <p className="hero-delivery">Brought directly to you.</p>
+                <p className="hero-delivery">Timeless pieces, rooted in our heritage and made for today.</p>
                 <div className="hero-actions">
                   <a href="#pieces" className="button primary">
                     Browse the marketplace <ArrowRight size={17} />
@@ -735,8 +735,7 @@ function App() {
                   </button>
                 </div>
                 <div className="hero-caption">
-                  <span className="caption-line" /> A direct connection between
-                  you and the maker.
+                  <span className="caption-line" /> A direct connection to timeless pieces.
                 </div>
               </div>
               <div className="hero-art" aria-hidden="true">
@@ -1348,9 +1347,7 @@ function App() {
             <span className="brand-dot">·</span>
           </button>
           <p>
-            A place for things made with care.
-            <br />
-            And for the people who make them.
+            Connecting the past with the future through timeless pieces.
           </p>
           <div>
             <button onClick={() => go("market")}>Marketplace</button>
@@ -1369,7 +1366,7 @@ function App() {
         </div>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} Luvai Africa</span>
-          <span>Rooted in Africa. Made for connection.</span>
+          <span>Heritage, carried forward.</span>
         </div>
       </footer>
       {notice && (
