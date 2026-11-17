@@ -97,7 +97,7 @@ export default function PwaInstall() {
         >
           <X size={20} />
         </button>
-        <img src="/logo-mark.svg" alt="" width="64" height="64" />
+        <img src="/logo-mark.svg" alt="" width="48" height="48" style={{ width: 48, height: 48, maxWidth: 48, maxHeight: 48, objectFit: "contain" }} />
         <h2 id="install-title">Install Luvai Africa.</h2>
         <p>Add Luvai Africa to your home screen and open it like an app.</p>
         <ol>
