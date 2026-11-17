@@ -1,0 +1,19 @@
+{
+ "id":"/",
+ "name":"Luvai Africa",
+ "short_name":"Luvai Africa",
+ "description":"Your culture. Your heritage. Brought directly to you.",
+ "lang":"en",
+ "start_url":"/",
+ "scope":"/",
+ "display":"standalone",
+ "background_color":"#faf7f0",
+ "theme_color":"#654431",
+ "categories":["shopping","lifestyle"],
+ "prefer_related_applications":false,
+ "icons":[
+  {"src":"/icons/brand-v2-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+  {"src":"/icons/brand-v2-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+  {"src":"/icons/brand-v2-maskable.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+ ]
+}

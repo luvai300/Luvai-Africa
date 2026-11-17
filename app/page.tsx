@@ -1,4 +1,5 @@
 "use client";
+import PwaInstall from "../components/pwa-install";
 import { useCallback, useEffect, useRef, useState, Suspense } from "react";
 import {
   Search,
@@ -660,6 +661,13 @@ function App() {
           onClick={() => go("market")}
           aria-label="Luvai Africa home"
         >
+          <img
+            className="brand-mark"
+            src="/logo-mark.svg"
+            alt=""
+            width="36"
+            height="36"
+          />
           Luvai<span>AFRICA</span>
           <span className="brand-dot">·</span>
         </button>
@@ -682,6 +690,7 @@ function App() {
           <button onClick={() => open({ type: "about" })}>Our approach</button>
         </nav>
         <div className="header-actions">
+          <PwaInstall />
           <button
             className="icon-btn saved-btn"
             aria-label="Saved pieces"
@@ -1328,6 +1337,13 @@ function App() {
       <footer>
         <div className="footer-main">
           <button className="brand" onClick={() => go("market")}>
+            <img
+              className="brand-mark"
+              src="/logo-mark.svg"
+              alt=""
+              width="36"
+              height="36"
+            />
             Luvai<span>AFRICA</span>
             <span className="brand-dot">·</span>
           </button>
