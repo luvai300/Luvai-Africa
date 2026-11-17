@@ -781,14 +781,14 @@ function App() {
         {view === "studio" && (
           <section className="page-intro studio-intro">
             <div>
-              <span className="eyebrow">YOUR OWN CORNER OF LU VAI</span>
+              <span className="eyebrow">MAKER REGISTRATION · LU VAI AFRICA</span>
               <h1>
-                {profile ? profile.shop_name : "Your craft belongs here."}
+                {profile ? profile.shop_name : "Modern Africa starts with its makers."}
               </h1>
               <p>
                 {profile
                   ? "Make, photograph, share. We’ll keep your shop in one place."
-                  : "Create a shop and list as many pieces as you make."}
+                  : "Share your craft with people looking for African work."}
               </p>
             </div>
             {user && (
@@ -804,14 +804,14 @@ function App() {
           </div>
         ) : view === "studio" && !user ? (
           <section className="onboarding">
-            <Vessel small />
+            <span className="onboarding-kicker">LU VAI AFRICA · FOR MAKERS</span>
             <h2>
-              A small shop.
-              <br />A wider world.
+              Modern Africa.
+              <br />
+              <em>The future of Africa is here.</em>
             </h2>
             <p>
-              Create an account, introduce your craft and upload your first
-              piece. No listing limit, and no need to own a website.
+              Open your shop, share the story behind your work and list every piece you create. No separate website needed.
             </p>
             <button
               className="button primary"
@@ -820,7 +820,7 @@ function App() {
                 open({ type: "auth" });
               }}
             >
-              Create your account <ArrowRight size={16} />
+              Create your shop <ArrowRight size={16} />
             </button>
             <button
               className="quiet-link"
@@ -829,7 +829,7 @@ function App() {
                 open({ type: "auth" });
               }}
             >
-              Already a maker here? Sign in
+              Already have a shop? Sign in
             </button>
           </section>
         ) : view === "studio" && user && !profile ? (
