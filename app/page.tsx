@@ -652,9 +652,6 @@ function App() {
   const shown = view === "studio" ? myProducts : products;
   return (
     <>
-      <div className="topline">
-        Modern Africa · The future of Africa is here.
-      </div>
       <header className="header">
         <button
           className="brand"
@@ -723,9 +720,9 @@ function App() {
                 <h1>
                   Modern Africa.
                   <br />
-                  <em>The future of Africa is here.</em>
+                  <em>Your culture. Your heritage.</em>
                 </h1>
-                <p className="hero-delivery">Timeless pieces, rooted in our heritage and made for today.</p>
+                <p className="hero-delivery">Brought directly to you.</p>
                 <div className="hero-actions">
                   <a href="#pieces" className="button primary">
                     Browse the marketplace <ArrowRight size={17} />
@@ -735,7 +732,7 @@ function App() {
                   </button>
                 </div>
                 <div className="hero-caption">
-                  <span className="caption-line" /> A direct connection to timeless pieces.
+                  <span className="caption-line" /> A direct connection from the past, through the present, to the future.
                 </div>
               </div>
               <div className="hero-art" aria-hidden="true">
@@ -1366,7 +1363,6 @@ function App() {
         </div>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} Luvai Africa</span>
-          <span>Heritage, carried forward.</span>
         </div>
       </footer>
       {notice && (
